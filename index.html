@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Checkout Page</title>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <div class="box">
+        <div class="border1">
+            <img src="photo1.png" alt="pic" />
+            <h2>Vintage Backbag</h2>
+            <p>
+              <span>$54.99</span>
+              <span  id="child1">$94.99</span>
+            </p>
+ 
+              
+             
+            <br>
+            <img src="photo2.png" alt="pic">
+            <h2>Levi Shoes</h2>
+            <p>
+              <span>$74.9</span>
+              <span>$190.99</span>
+            </p>
+
+               
+             
+            
+          </div>
+
+        </div>
+
+        <div class="box">
+          <h1>Checkout</h1>
+          <br>
+          <h3>Contact Information</h3>
+          <br>
+          <div class="form-group">
+            <form>
+            <h6>Email</h6>
+          <div class="group-input">
+            <i class="far fa-envelope"></i>
+            <input type="email" name="email" placeholder="Enter Your Email">
+          </div>
+          </div>
+          <div class="form-group">
+            <h6>Phone</h6>
+            <div class="group-input">
+              <i class="fas fa-phone-alt"></i>
+              <input type="text" name="phone" placeholer="0000-0000">
+            </div>
+          </div>
+          <br><br>
+          <h1>Shipping address</h1>
+          <div class="form-group">
+            <h6>Full Name</h6>
+            <div class="group-input">
+              <i class="fas fa-user-circle"></i>
+                <input type="text" name="name" placeholder="Name">
+              
+            </div>
+          </div>
+          <div class="form-group">
+            <h6>Adress</h6>
+            <div class="group-input">
+              <i class="fas fa-address-card"></i>
+              <input type="text" name="adress">
+            </div>
+          </div>
+          <div class="form-group">
+            <h6>City</h6>
+            <div class="group-input">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" name = "city">
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div class="form-group">
+              <h6>Country</h6>
+              <div class="group-input">
+                <i class="fas fa-map-marked"></i>
+                <select name="country">
+                  <option value="0">Your Country</option>
+                  <option value="1">Morocco</option>
+                  <option value="2">Usa</option>
+                  <option value="3">Bali</option>
+                  <option value="4">Germany</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <h6>Postal Code</h6>
+              <div class="group-input">
+                <i class="fas fa-location-arrow"></i>
+                <input type="text" name="location">
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <button type="submit" id="btn">Submit</button></form>
+        </div>
+    </div>
+  </header>
+<script src="script.js"></script>
+</body>
+</html>
